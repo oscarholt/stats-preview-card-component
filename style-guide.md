@@ -50,7 +50,7 @@ TODO (DESKTOP):
 
 - Add a black background ( X )
 - Style main card having sit in the middle of the screen ( X )
-- Style image with violet overlay and float right ( )
+- Style image with violet overlay and float right ( X )
 - Style h2 with margin, font and emphasis ( )
 - Style paragraph with margin and font ( )
 - Style statistics box ( )

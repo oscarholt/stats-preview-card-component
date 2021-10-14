@@ -18,6 +18,18 @@ body {
 
 /* Hero Image */
 
+.hero-image {
+  background-color: hsl(277deg, 97%, 35%);
+  width: fit-content;
+  float: right;
+  margin: 0;
+}
+
+.hero-image img {
+  opacity: 0.5;
+  vertical-align: bottom;
+}
+
 /* Header  */
 
 /* Subtext */
@@ -29,6 +41,7 @@ body {
 .attribution {
   font-size: 11px;
   text-align: center;
+  color: white;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
