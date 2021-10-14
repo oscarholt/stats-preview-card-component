@@ -1,0 +1,38 @@
+/* Main  */
+
+body {
+  background-color: hsl(233, 47%, 7%);
+}
+
+/* Main Card */
+
+.main-card {
+  background-color: hsl(244, 38%, 16%);
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/* Hero Image */
+
+/* Header  */
+
+/* Subtext */
+
+/* Statistics */
+
+/* Footer */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 375px) {
+}
