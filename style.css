@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;800&family=Lexend+Deca&display=swap");
+
 /* Main  */
 
 body {
@@ -36,16 +38,45 @@ body {
 /* Main Info */
 
 .main-info {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
 }
 
 /* Header  */
 
 .header {
+  width: fit-content;
+  min-width: 255px;
+}
+
+.header h2 {
+  font-family: "Inter";
+  font-weight: 800;
+  color: hsl(0, 0%, 100%);
+  font-size: 1.6rem;
+}
+
+.header em {
+  font-family: "Inter";
+  font-weight: 800;
+  font-style: normal;
+  color: hsl(277, 64%, 61%);
 }
 
 /* Subtext */
 
+.subtext {
+  display: block;
+}
+
 /* Statistics */
+
+.statistics {
+  display: flex;
+  justify-content: space-between;
+}
 
 /* Footer */
 
