@@ -48,11 +48,11 @@ TODO (MOBILE)
 
 TODO (DESKTOP):
 
-- Add a black background ( )
-- Style main card having sit in the middle of the screen ( )
-- Style image with violet overlay and float right ( )
-- Style h2 with margin, font and emphasis ( )
-- Style paragraph with margin and font ( )
+- Add a black background ( X )
+- Style main card having sit in the middle of the screen ( X )
+- Style image with violet overlay and float right ( X )
+- Style h2 with margin, font and emphasis ( X )
+- Style paragraph with margin and font ( X )
 - Style statistics box ( )
 - Style statistics h3 ( )
 - Style statistics p ( )

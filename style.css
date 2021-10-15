@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;800&family=Lexend+Deca&display=swap");
+
+/* Main  */
+
+body {
+  background-color: hsl(233, 47%, 7%);
+}
+
+/* Main Card */
+
+.main-card {
+  background-color: hsl(244, 38%, 16%);
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  height: fit-content;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+/* Hero Image */
+
+.hero-image {
+  background-color: hsl(277deg, 97%, 35%);
+  width: fit-content;
+  display: flex;
+  margin: 0;
+}
+
+.hero-image img {
+  opacity: 0.5;
+  vertical-align: bottom;
+}
+
+/* Main Info */
+
+.main-info {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+/* Header  */
+
+.header {
+  width: fit-content;
+  min-width: 255px;
+}
+
+.header h2 {
+  font-family: "Inter";
+  font-weight: 800;
+  color: hsl(0, 0%, 100%);
+  font-size: 1.6rem;
+}
+
+.header em {
+  font-family: "Inter";
+  font-weight: 800;
+  font-style: normal;
+  color: hsl(277, 64%, 61%);
+}
+
+/* Subtext */
+
+.subtext {
+  display: block;
+  color: hsla(0, 0%, 100%, 0.6);
+  font-family: "Lexend Deca";
+  font-size: 0.7rem;
+  line-height: 1.2rem;
+}
+
+/* Statistics */
+
+.statistics {
+  display: flex;
+  justify-content: space-between;
+}
+
+.statistics h3 {
+}
+
+.statistics p {
+}
+
+/* Footer */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: white;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 375px) {
+}
