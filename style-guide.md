@@ -54,5 +54,6 @@ TODO (DESKTOP):
 - Style h2 with margin, font and emphasis ( X )
 - Style paragraph with margin and font ( X )
 - Style statistics box ( )
-- Style statistics h3 ( )
-- Style statistics p ( )
+- Style statistics h3 ( X )
+- Style statistics p ( X )
+- Style margins and padding of info section ( )
