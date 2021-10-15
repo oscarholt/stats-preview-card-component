@@ -52,7 +52,7 @@ TODO (DESKTOP):
 - Style main card having sit in the middle of the screen ( X )
 - Style image with violet overlay and float right ( X )
 - Style h2 with margin, font and emphasis ( X )
-- Style paragraph with margin and font ( )
+- Style paragraph with margin and font ( X )
 - Style statistics box ( )
 - Style statistics h3 ( )
 - Style statistics p ( )

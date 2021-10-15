@@ -69,6 +69,10 @@ body {
 
 .subtext {
   display: block;
+  color: hsla(0, 0%, 100%, 0.6);
+  font-family: "Lexend Deca";
+  font-size: 0.7rem;
+  line-height: 1.2rem;
 }
 
 /* Statistics */
@@ -76,6 +80,12 @@ body {
 .statistics {
   display: flex;
   justify-content: space-between;
+}
+
+.statistics h3 {
+}
+
+.statistics p {
 }
 
 /* Footer */
