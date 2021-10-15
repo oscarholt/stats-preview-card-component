@@ -4,6 +4,8 @@
 
 body {
   background-color: hsl(233, 47%, 7%);
+  margin: 0px;
+  overflow: hidden;
 }
 
 /* Main Card */
@@ -19,29 +21,38 @@ body {
   height: fit-content;
   display: flex;
   flex-direction: row-reverse;
+  border-radius: 10px;
 }
 
 /* Hero Image */
 
 .hero-image {
-  background-color: hsl(277deg, 97%, 35%);
+  background-color: hsl(285deg 96% 24%);
   width: fit-content;
   display: flex;
   margin: 0;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .hero-image img {
-  opacity: 0.5;
+  opacity: 0.4;
   vertical-align: bottom;
+  width: auto;
+  height: 370px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 /* Main Info */
 
 .main-info {
   width: fit-content;
+  min-width: 300px;
   display: flex;
   flex-direction: column;
-  padding: 40px;
+  padding: 30px 60px;
+  margin-right: 20px;
 }
 
 /* Header  */
@@ -71,7 +82,7 @@ body {
   display: block;
   color: hsla(0, 0%, 100%, 0.6);
   font-family: "Lexend Deca";
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   line-height: 1.2rem;
 }
 
@@ -80,12 +91,24 @@ body {
 .statistics {
   display: flex;
   justify-content: space-between;
+  margin-top: 15%;
 }
 
 .statistics h3 {
+  font-family: "Inter";
+  font-weight: 800;
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 0px;
 }
 
 .statistics p {
+  font-family: "Inter";
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 0.6);
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  margin-top: 5px;
+  margin-bottom: 0px;
 }
 
 /* Footer */
@@ -94,10 +117,16 @@ body {
   font-size: 11px;
   text-align: center;
   color: white;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  bottom: 5%;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
 
-@media only screen and (max-width: 375px) {
+/* Mobile Responsive */
+
+@media only screen and (max-width: 425px) {
 }
